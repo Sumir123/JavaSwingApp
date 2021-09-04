@@ -1,0 +1,21 @@
+Create database in phpmyadmin "Primebca"
+create tables using the query below:-
+Students:
+"CREATE TABLE students (
+    studentID int PRIMARY key AUTO_INCREMENT,
+    FirstName varchar(50),
+     LastName varchar(50),
+    Address varchar(250),
+    phone varchar(15),
+    hobbies varchar(150),
+    gender varchar(8),
+    course varchar(50),
+    remarks varchar(200)
+);"
+users:"
+CREATE TABLE users (
+    ID int PRIMARY key AUTO_INCREMENT,
+    Username varchar(50),
+     password varchar(50)
+);
+"
