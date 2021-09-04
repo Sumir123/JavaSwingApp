@@ -353,6 +353,7 @@ public class form implements ActionListener, KeyListener {
         readingCheckBox.setSelected(false);
         writingCheckBox.setSelected(false);
         swimmingCheckBox.setSelected(false);
+        musicCheckBox.setSelected(false);
         bgGender.clearSelection();
     }
 
